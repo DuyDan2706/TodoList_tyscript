@@ -6,14 +6,11 @@ export default function TodoList() {
   return (
     <div className={styles.todoList}>
       <div className={styles.todolistContainer}>
-
         TodoList
         <TaskInput />
-        <TaskList />
+        <TaskList doneTaskList={false} />
+        <TaskList doneTaskList />
       </div>
-
-
-
     </div>
   )
 }
